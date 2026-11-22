@@ -1,6 +1,6 @@
 # Termos de uso do Call Boring
 
-Atualizado em 17/11/2026
+Atualizado em 22/11/2026
 
 Estes termos valem para o uso do app Call Boring (`com.cavazzani.callboring`) em aparelhos Android. Ao aceitar e usar o app, você concorda com eles. Se não concordar, não use o app.
 
@@ -14,7 +14,9 @@ O Call Boring decide, a cada ligação de um **Desconhecido** (número que não 
 
 - **Recusar** encerra a ligação de um Desconhecido antes de tocar.
 - **Silenciar** deixa a ligação chegar sem som nem vibração.
-- Contatos e números de **Regiões liberadas** tocam normalmente.
+- Contatos e números da **Lista pessoal** tocam normalmente.
+- Números de **Regiões liberadas** tocam normalmente, exceto quando, com o Modo IA, você escolhe "Só IA" em **Quem pode ligar**.
+- O **Modo IA**, opcional, ajuda o Filtro a reconhecer ligações de Desconhecidos que parecem importantes (veja "Modo IA").
 
 ## Plano Free e Limite diário
 
@@ -27,26 +29,40 @@ O **Pro** é uma compra única que remove o Limite diário para sempre. Não é 
 - A compra é feita e cobrada pela Google Play, com a sua conta Google.
 - Pedidos de reembolso seguem as regras da Google Play e são feitos pela Play Store.
 - Para recuperar o Pro em outro aparelho, entre com a mesma conta Google da compra e abra o app.
+- Com o Modo IA ligado e a IA incluída em **Quem pode ligar** ("DDD + IA" ou "Só IA"), o Pro também libera automaticamente as ligações que a IA reconhece como importantes (veja "Modo IA").
 
 ## Limites do Filtro
 
 O Filtro depende do sistema Android e do que o fabricante do seu aparelho permite. Por isso:
 
 - Não garantimos que o Filtro vai atuar em 100% das ligações. Alguns aparelhos podem atrasar, ignorar ou limitar o app, por exemplo ao economizar bateria.
-- O Filtro só analisa ligações **recebidas**. As ligações que você faz não passam por ele.
+- O Filtro só age nas ligações **recebidas**: as ligações que você faz nunca são recusadas nem silenciadas. Com o Modo IA ligado, o app registra no aparelho as ligações que você faz para números fora dos seus contatos, como explica a Política de privacidade.
 - Ligação sem número identificado (número oculto) não é analisada e toca normalmente.
 - O Filtro não tem nenhuma exceção para números de emergência: ele não os reconhece nem os trata de forma diferente. Uma ligação recebida de um Desconhecido pode ser recusada ou silenciada como qualquer outra. Se você espera uma ligação importante, salve o número nos contatos, libere a região ou desligue o Filtro.
 - **Recusar** pode encerrar uma ligação que você queria receber.
 
+## Modo IA
+
+O Modo IA é opcional e só funciona depois que você o ativa e dá o seu consentimento. Ele aprende, no próprio aparelho, com seus contatos, suas ligações e suas correções, para reconhecer quais ligações de Desconhecidos parecem importantes.
+
+No ajuste **Quem pode ligar**, você escolhe como o Filtro usa a IA: "Só DDD" (só as Regiões liberadas, sem a IA), "DDD + IA" (as Regiões liberadas e a IA) ou "Só IA" (só a IA, sem as Regiões liberadas).
+
+- **É uma ajuda automática e pode errar.** A IA pode deixar tocar uma ligação que você não queria receber, ou recusar ou silenciar uma ligação que você queria.
+- **Na dúvida, silencia em vez de recusar.** Quando a IA acha que uma ligação pode ser importante, mas não tem certeza, ela a silencia, mesmo que o Filtro esteja ajustado para Recusar. Esse silêncio conta para o Limite diário do Plano Free. Nas demais ligações de Desconhecidos, vale a sua escolha entre Recusar e Silenciar.
+- **Você está no controle.** Você pode corrigir a IA marcando uma ligação como "Era importante" ou "Não era importante", ou desligar o Modo IA a qualquer momento.
+- **O que é grátis e o que é Pro.** No Plano Free, a IA aprende e mostra quantas ligações teria liberado, sem liberá-las. Liberar automaticamente as ligações reconhecidas como importantes é um benefício do Pro.
+
+O tratamento de dados do Modo IA está descrito na Política de privacidade.
+
 ## Sem garantia e sem responsabilidade por ligações perdidas
 
-O app é oferecido "como está", sem garantia de funcionamento ininterrupto ou livre de erros. Na medida permitida pela lei, o responsável não responde por ligações perdidas, recusadas ou silenciadas, nem por prejuízos que decorram delas. Você decide quando usar o Filtro e como configurá-lo.
+O app é oferecido "como está", sem garantia de funcionamento ininterrupto ou livre de erros. Na medida permitida pela lei, o responsável não responde por ligações perdidas, recusadas, silenciadas ou liberadas pelo Filtro ou pelo Modo IA, nem por prejuízos que decorram delas. Você decide quando usar o Filtro e como configurá-lo.
 
 Nada neste texto retira direitos que a lei garante a você como consumidor.
 
 ## Seus dados
 
-O tratamento de dados está descrito na Política de privacidade. Em resumo, seus contatos e o histórico de ligações ficam só no seu aparelho.
+O tratamento de dados está descrito na Política de privacidade. Em resumo, seus contatos, o histórico de ligações e os dados do Modo IA ficam só no seu aparelho.
 
 ## Uso adequado
 
